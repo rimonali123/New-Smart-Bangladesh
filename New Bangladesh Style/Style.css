@@ -1,6 +1,6 @@
 body {
     margin: 50px 50px;
-background-color: #F1F1F3
+    background-color: #F1F1F3
 }
 
 header {
@@ -23,7 +23,7 @@ header {
     border-radius: 5px;
 }
 
-Section{
+Section {
     margin: 50px 0px;
 }
 
@@ -31,11 +31,63 @@ Section{
     display: flex;
     justify-content: space-evenly;
     gap: 20px;
-    
+
 }
-.card{
-background-color: white;
-/* box-shadow: 50px 40px; */
-padding: 10px;
-border-radius: 10px
+
+.card {
+    background-color: white;
+    /* box-shadow: 50px 40px; */
+    padding: 10px;
+    border-radius: 10px
+}
+
+.vision-cards{
+    display: flex;
+    gap: 20px;
+}
+
+.vision-card-1 {
+    background-color: #aec2e4;
+    opacity: 70%;
+    /* box-shadow: 50px 40px; */
+    padding: 10px;
+    border-radius: 10px
+}
+.vision-card-1 button {
+    background-color: #5490F5;
+    color: white;
+    border-radius: 5px;
+    padding: 5px 15px;
+    border: none;
+
+}
+
+.vision-card-2 button{
+    background-color: #09A15C;
+    color: white;
+    border-radius: 5px;
+    padding: 5px 15px;
+    border: none;
+}
+
+
+.vision-card-3 button{
+    background-color: #FFC239;
+    color: white;
+    border-radius: 5px;
+    padding: 5px 15px;
+    border: none;
+}
+.vision-card-2 {
+    background-color: #C6E4D6;
+    /* box-shadow: 50px 40px; */
+    padding: 10px;
+    border-radius: 10px
+}
+
+.vision-card-3 {
+    background-color: #F7EBCF;
+    /* box-shadow: 50px 40px; */
+    padding: 10px;
+    border-radius: 10px
 }
