@@ -1,22 +1,41 @@
-body{
+body {
     margin: 50px 50px;
-
+background-color: #F1F1F3
 }
-header{
+
+header {
     background-color: #C6E4D6;
     border-radius: 10px;
     padding: 40px;
 }
 
-.header-content{
-        display: flex;
-        align-items: center;
-        gap: 30px;
+.header-content {
+    display: flex;
+    align-items: center;
+    gap: 30px;
 
 }
-.header-content button{
+
+.header-content button {
     background-color: #006A50;
     color: white;
     padding: 10px 30px;
     border-radius: 5px;
+}
+
+Section{
+    margin: 50px 0px;
+}
+
+.pillars-section-card {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+    
+}
+.card{
+background-color: white;
+/* box-shadow: 50px 40px; */
+padding: 10px;
+border-radius: 10px
 }
