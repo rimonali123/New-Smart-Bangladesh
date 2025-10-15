@@ -237,3 +237,14 @@ border: none;
     padding: 10px;
     
 }
+
+footer{
+    justify-content: center;
+    text-align: center;
+}
+
+footer div{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
