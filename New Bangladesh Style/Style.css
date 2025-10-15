@@ -98,3 +98,40 @@ Section {
     padding: 30px;
     border-radius: 10px;
 }
+.main-opinion-div{
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+.questions{
+    border: 1px solid green;
+    padding: 10px;
+    background-color: #C6E4D6;
+    display: flex;
+    justify-content:space-between ;
+}
+
+.p1{
+    border: 1px solid black;
+    border-top: none;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.p1 p{
+    padding: 10px;
+}
+
+.selector{
+    border: 1px solid black;
+    border-top: none;
+    border-right: none;
+    border-bottom: none;
+    padding: 20px;
+}
+
+.selector select{
+    padding: 10px;
+    background-color: #C6E4D6;
+}
