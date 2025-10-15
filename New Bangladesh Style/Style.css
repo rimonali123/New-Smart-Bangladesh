@@ -161,3 +161,41 @@ Section {
     border-radius: 5px;
 
 }
+
+.Donate-heading{
+    text-align: center;
+}
+
+.Donate-heading input{
+width: 70%;
+padding: 15px;
+border-radius: 10px;
+border: none;
+}
+
+.Donate-heading input::placeholder {
+  text-align: center;
+    
+}
+
+
+.donate-card{
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+}
+
+.donate-card h1{
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.button-primary{
+    background-color: #006A50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
