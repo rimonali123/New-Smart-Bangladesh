@@ -135,3 +135,29 @@ Section {
     padding: 10px;
     background-color: #C6E4D6;
 }
+
+.main-news-div{
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    gap: 20px;
+    margin: 20px 0px;
+}
+.main-news-div img{
+    border-radius: 10px;
+}
+
+.date-time{
+    display: flex;
+    gap: 10px;
+}
+
+.news-container button{
+    background-color: #006A50;
+    border: none;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+
+}
